@@ -1,0 +1,27 @@
+# Cấu hình riêng của từng máy và thông tin bí mật
+/wp-config.php
+/.env
+/.env.*
+
+# File sinh ra trong quá trình chạy WordPress
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/debug.log
+*.log
+
+# Nội dung người dùng cần sao lưu riêng, không đưa lên GitHub
+/wp-content/uploads/
+/wp-content/backups/
+/wp-content/ai1wm-backups/
+/wp-content/updraft/
+/local-backups/
+*.sql
+*.sql.gz
+
+# IDE và hệ điều hành
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
